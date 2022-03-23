@@ -1,0 +1,88 @@
+.contestPhotoPrev{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 166px;
+}
+.contestPhotoPrev:hover{
+    cursor: pointer;
+}
+
+.photoShov{
+    z-index:6;
+    margin: 0;
+    position: fixed;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 15px solid  #1D79CC; 
+}
+
+.contentCPP{
+    position:absolute;
+    left: 50%;
+    margin-right: 50%;
+    transform:translate(-50%);
+    height: 100%;
+}
+
+
+.blackPhone{
+    position:fixed;
+    width: 100%;
+    z-index: 4;
+    background-repeat: no-repeat;
+    border:1px solid red;
+    background-color:#222;
+    background-color:rgba(0,0,0,0.9);
+    margin-top:0px;
+}
+
+.nextPhoto{
+    position: fixed;
+    z-index: 6;
+    width: 128px;
+    height: 128px;
+    top: 40%;
+    transform: translate(-0%,);
+}
+.nextPhoto:hover{
+    cursor: pointer;
+}
+
+.divNextPhoto{
+    position: fixed;
+    z-index: 5;
+    width: 120px;
+    height: 120px;
+    top: 40%;
+}
+
+.nextPhoto1{
+    position: fixed;
+    z-index: 6;
+    width: 128px;
+    height: 128px;
+    top: 40%;
+    transform: translate(-0%,);
+    right: 1px;
+}
+
+.nextPhoto1:hover{
+    cursor: pointer;
+}
+
+.divNextPhoto1{
+    position: fixed;
+    z-index: 5;
+    width: 120px;
+    height: 120px;
+    top: 40%;
+    right: 1px;
+}
+
+.numberPhotoContest{
+    font-size: 1px;
+}
+

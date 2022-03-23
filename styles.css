@@ -1,0 +1,227 @@
+*{
+  margin:0px;
+  padding:0px;
+  
+}
+
+.header{
+  position:fixed;
+  width: 100%;
+  height:50px;
+  z-index: 10;
+  background-color: white;
+}
+.brend{
+  position:absolute;
+  width:25%;
+  height:50px;
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, .2);
+  border:none;
+}
+.pbrend{
+  margin-top:12px;
+  margin-left:29px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+.navigator{
+  position: absolute;
+  width:75%;
+  height:50px;
+  right:0px;
+  box-shadow:  0 0 3px 0 rgba(0, 0, 0, .2);
+}
+
+.content{
+  position:relative;
+  width:100% ;
+  background-color: #1D79CC;
+  display: block;
+  z-index:2;
+  overflow: auto;
+}
+.prevPhotoModel{
+  position:absolute;
+  width:200px;
+  height:250px;
+  border:1px solid red;
+  cursor: pointer;
+}
+.prevPhotoModel:hover{
+  box-shadow: 0 4px 15px red;
+}
+.pPrevPhoto{
+  position:absolute;
+  top:260px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nameModelP{
+  width:250px;
+  Position:absolute;
+  top:60px;
+  left:100px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.numberPhoto{
+  font-size: 1px;
+}
+.nameModel{
+  position:absolute;
+}
+.photoModel{
+  position:absolute;
+  width:200px;
+  height:250px;
+  border:1px solid red;
+  cursor:pointer;
+}
+.photoModel:hover{
+  box-shadow: 0 4px 15px red;
+}
+
+.imgw1{
+  position:fixed;
+  z-index:7;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 15px solid  #1D79CC;
+}
+.clik{
+  position:fixed;
+  z-index:8;
+  top: 40%;
+  transform: translate(-0%,);
+}
+
+.clik:hover{
+  cursor:pointer;
+}
+
+.clik1{
+  position:fixed;
+  z-index:8;
+  right: 0px;
+  top: 40%;
+  transform: translate(-0%,);
+}
+
+.clik1:hover{
+  cursor:pointer;
+}
+
+.show{
+  display:block;
+}
+.divClick{
+  position: fixed;
+  z-index: 7;
+  width: 120px;
+  height: 120px;
+  margin-top: 265px;
+}
+
+.divClick1{
+  position: fixed;
+  z-index: 7;
+  width: 120px;
+  height: 120px;
+  margin-top: 265px;
+  right: 1px;
+}
+
+.photoModelShov1{
+  position:fixed;
+  width: 100%;
+  z-index: 4;
+  height:650px;
+  background-repeat: no-repeat;
+  border:1px solid red;
+  background-color:#222;
+	background-color:rgba(0,0,0,0.9);
+  margin-top:0px;
+}
+.clozPhoto{
+  position: fixed;
+  z-index: 7;
+  width: 64px;
+  height: 64px;
+  top: 90px;
+  right:33px;
+}
+
+.clozPhoto:hover{
+  cursor:pointer;
+}
+.backModell{
+  position: absolute;
+  z-index: 4;
+  margin-top:50px;
+  margin-left:30px;
+  width:42px;
+  height:42px;
+}
+.backModell:hover{
+  cursor: pointer;
+}
+
+.show{
+  display:block;
+}
+
+.hide{
+  display:none;
+}
+
+nav{
+  background: #334; /* Задаем основной фон меню */
+  padding: 0 3%; /* Задаем внутренние отступы */
+  height:50px;
+  width:94%;
+}
+
+nav ul {
+  list-style: none; /* Убираем маркер для элементов списка */
+}
+
+  nav ul li {
+  display:inline-block;/*Выстраиваем пункты меню в ряд по горизонтали */
+}
+
+nav ul li  p {
+  display:block; /* Настраиваем оформление пунктов меню */
+  padding: 15px 20px;
+  font-size: .9em;
+  color: #eee;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-top: 1px solid #445;
+}
+
+nav ul li:hover {
+  background: #445; /* Меняем фон пункта меню при наведении указателя мыши */
+  cursor: pointer;
+} 
+
+nav ul li ul {
+display: none; /* Прячем пункты выпадающего блока меню */
+position:absolute;
+background: #334; /* Задаем фон выпадающего блока меню */
+}
+
+nav ul li:hover ul {
+display:block; /* Отображаем подменю при наведении мыши */
+}
+
+nav ul li ul li {
+display:block; /* Выстраиваем по вертикали пункты выпадающего меню */
+}
+
+
