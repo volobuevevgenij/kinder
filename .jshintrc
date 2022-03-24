@@ -6,9 +6,10 @@
 	"maxlen":180,
 	"trailing": true,
 	"curly": true,
+	"node":true,
 	"browser": true,
 	"devel": true,
 	"jquery": true,
-	"esversion": 6,
+	"esversion": 9,
     "strict": "global"
 }
